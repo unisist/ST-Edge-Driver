@@ -139,7 +139,7 @@ local function level_val(device, level)
   log.info( prod )
   if prod=="ogaemzt" then
     ret = (level == level%256) and level or 100-(level%256)
-  elseif prod=="udank5zs" then
+  elseif prod=="dank5zs" then
     log.info("udank5zs model level handle level"..level)
     ret = (level == level%232) and level or 100-(level%232)
   else
